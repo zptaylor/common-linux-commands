@@ -1,6 +1,30 @@
 
 # Common Linux commands
 
+## Maven
+
+### create report of updates
+```
+mvn versions:display-plugin-updates
+
+mvn versions:plugin-updates-report
+
+mvn versions:property-updates-report
+```
+
+### update pom.xml versions
+```
+mvn versions:use-latest-releases
+
+mvn versions:use-latest-versions
+```
+
+### create report of dependency convergences
+```
+mvn project-info-reports:dependency-convergence
+```
+
+
 ## General
 ### set JAVA_HOME
 ```
