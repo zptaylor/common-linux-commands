@@ -16,8 +16,8 @@ Installing maven plugin
 
 ## Steps to get a clean scan
 
-```cmd
 clean the fortify scan plugin
+```cmd
 set app_version=APP_BUILD_14_01
 sourceanalyzer -b %app_version% -clean
 mvn com.fortify.sca.plugins.maven:sca-maven-plugin:clean
