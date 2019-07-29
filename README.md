@@ -1,4 +1,4 @@
-
+Welcome to my brain dump.  These commands are just what I, in my work as a full stack java dev for VA, have to keep typing over and over.  
 # Common Linux commands
 
 ## Maven
