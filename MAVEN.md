@@ -23,3 +23,11 @@ mvn versions:use-latest-versions
 ```cmd
 mvn project-info-reports:dependency-convergence
 ```
+
+## manually install jars in the repo (example is VistALink)
+
+```cmd
+mvn install:install-file -DgroupId=gov.va.med.vistalink -DartifactId=vljConnector -Dpackaging=jar -Dversion=1.6.0.028 -Dfile=vljConnector-1.6.0.028.jar
+mvn install:install-file -DgroupId=gov.va.med.vistalink -DartifactId=vljFoundationsLib -Dpackaging=jar -Dversion=1.6.0.028 -Dfile=vljFoundationsLib-1.6.0.028.jar
+mvn install:install-file -DgroupId=gov.va.med.vistalink -DartifactId=vljSecurity -Dpackaging=jar -Dversion=1.6.0.028 -Dfile=vljSecurity-1.6.0.028.jar
+```
