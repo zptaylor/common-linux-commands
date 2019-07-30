@@ -71,6 +71,13 @@ openssl pkcs12 -in keystore.p12  -nodes -nocerts -out key.pem
 openssl pkcs8 -topk8 -inform PEM -outform DER -in pkcs8 -topk8 -inform PEM -outform DER -in key.pem -nocrypt -out key.pkcs8
 ```
 
+### chmod 755 (rwx-rx-rx) all directorys in /app/
+
+```cmd
+sudo find /app/ -type d -exec chmod 755 {} \;
+```
+
+
 ## MONGO
 
 >**Always start cfg service first** then rs(replicaset) service and then mongos!!!
