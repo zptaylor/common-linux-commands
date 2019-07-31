@@ -1,7 +1,7 @@
 
 # Common Linux commands
 
-*Welcome to my brain dump.  These commands are just what I, in my work as a full stack java dev for VA, have to keep typing over and over.*
+*These commands are just what I have to keep typing over and over.*
 
 ## [Maven](MAVEN.md)
 
@@ -77,6 +77,11 @@ openssl pkcs8 -topk8 -inform PEM -outform DER -in pkcs8 -topk8 -inform PEM -outf
 sudo find /app/ -type d -exec chmod 755 {} \;
 ```
 
+### chmod a+rw all files in /app/
+
+```cmd
+sudo find /app/ -type f -exec chmod a+rw {} \;
+```
 
 ## MONGO
 
