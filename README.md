@@ -3,6 +3,8 @@
 
 *These commands are just what I have to keep typing over and over.*
 
+## [Git](GIT.md)
+
 ## [Maven](MAVEN.md)
 
 ## [Fortify](FORTIFY.md)
